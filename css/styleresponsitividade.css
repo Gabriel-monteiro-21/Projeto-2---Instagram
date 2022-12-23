@@ -1,0 +1,129 @@
+/*responsividade sem sidebar*/
+
+@media screen and (max-width: 935px) {
+    .lateral {
+        display: none;
+    }
+
+    .topo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 54px;
+        border: 1px solid #dbdbdb;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .logo-borda-imagem {
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+    .borda {
+        width: 1px;
+        height: 22px;
+        margin-left: 15px;
+        margin-right: 10px;
+        background-color: #dbdbdb;
+    }
+
+    .palavra-instagram {
+        width: 103px;
+        height: 29px;
+    }
+
+    .icones>.icons {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .topo input {
+        text-align: center;
+        width: 215px;
+        height: 28px;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+    }
+
+    .mobile-nave {
+        width: 100%;
+    }
+}
+
+/*responsividade do mobille*/
+
+@media screen and (max-width: 614px) {
+    .hidden-icons {
+        display: none;
+    }
+
+    .feed {
+        margin-top: 0;
+    }
+
+    .caixa-storie {
+        border: 0;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+
+    .post {
+        width: 100vw;
+    }
+
+    #mobile-nave {
+        display: initial;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    #mobile-ul {
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        padding: 0 20px;
+        border: 1px solid #dbdbdb;
+    }
+
+    .topo {
+        display: none;
+    }
+
+    .topoMobile {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 54px;
+        width: 100%;
+        background-color: #ffffff;
+        font-size: 25px;
+        border: 1px solid #dbdbdb;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .topoMobile ion-icon:first-child {
+        margin-left: 15px;
+    }
+
+    .topoMobile ion-icon:last-child {
+        margin-right: 15px;
+    }
+
+    .container {
+        margin-top: 54px;
+    }
+}
